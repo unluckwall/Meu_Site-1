@@ -6,7 +6,6 @@
 body{
 
     background:rgb(37, 37, 37);
-    display: block;
     color:white;
 }
 
@@ -25,6 +24,7 @@ body{
 
 #perfil{
     margin-top: 100px;
+    
 }
 
 h1 {
@@ -33,6 +33,11 @@ h1 {
     font-size: 40px;
     letter-spacing: 1.00px;
     font-weight: 700;
+    text-align: center;
 }
 
+#destaques{
+    margin-top: 100px;
+    text-align: center;
 
+}
