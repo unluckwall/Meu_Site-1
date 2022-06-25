@@ -24,7 +24,6 @@ body{
 
 #perfil{
     margin-top: 100px;
-    
 }
 
 h1 {
@@ -33,11 +32,24 @@ h1 {
     font-size: 40px;
     letter-spacing: 1.00px;
     font-weight: 700;
-    text-align: center;
 }
 
 #destaques{
     margin-top: 100px;
     text-align: center;
+}
 
+.row{
+    justify-content: center;
+}
+
+
+#pouquinhoDeMim{
+    margin-top: 130px;
+    text-align: justify;
+    padding-inline: 150px;
+}
+
+#tituloPoucoDeMim{
+    text-align: center;
 }
