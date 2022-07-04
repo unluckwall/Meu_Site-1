@@ -28,17 +28,20 @@ h2{
 }
 
 /* Editando a NavBar*/
+.navbar-expand-lg{
+    background-color: #191a1b;
+    position: relative;
+}
+
 #navbarNav{
     font-size: 17px;
+    padding-left: 2%;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show.nav-link {
     color: white;
 }
 
-.navbar-expand-lg{
-    background-color: #191a1b;
-}
 /* Terminando a edição da NavBar*/ 
 
 
