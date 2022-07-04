@@ -66,9 +66,10 @@ h2{
 }
 
 #rodaPe{
-    display: block;
+    display: flex;
     margin-top: 130px;
     background-color: #191a1b;
+    justify-content: center
 }
 
 /* Até aqui foi edição da parte da HOME*/
