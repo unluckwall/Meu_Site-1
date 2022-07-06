@@ -27,6 +27,13 @@ h2{
     text-align: center; 
 }
 
+h3{
+    padding-top: 3px;
+    font-family: 'Arial';
+    font-size: 19px;
+    letter-spacing: 1.00px;
+}
+
 /* Editando a NavBar*/
 .navbar-expand-lg{
     background-color: #191a1b;
@@ -73,3 +80,17 @@ h2{
 }
 
 /* Até aqui foi edição da parte da HOME*/
+
+/*Começando a editar os HOBBIES*/
+
+#hobbies{
+    text-align: justify;
+    padding-inline: 150px;
+}
+
+#hobbie{
+    margin-top: 90px;
+}
+#recomendacoes{
+    margin-top:80px;
+}
