@@ -40,9 +40,10 @@ h3{
     position: relative;
 }
 
-#navbarNav{
-    font-size: 17px;
-    padding-left: 2%;
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: center;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show.nav-link {
@@ -58,7 +59,7 @@ h3{
 }
 
 #destaques{
-    margin-top: 100px;
+    margin-top: 30px;
     text-align: center;
 }
 
@@ -67,14 +68,14 @@ h3{
 }
 
 #pouquinhoDeMim{
-    margin-top: 130px;
+    margin-top: 70px;
     text-align: justify;
     padding-inline: 150px;
 }
 
 #rodaPe{
     display: flex;
-    margin-top: 130px;
+    margin-top: 100px;
     background-color: #191a1b;
     justify-content: center
 }
@@ -96,3 +97,26 @@ h3{
 }
 
 /*Acabou os HOBBIES*/
+
+/*Começando o PESSOAL*/
+
+@media (max-width: 600px){    
+    .col-12 {    /*essa col-12 pega a foto dos destaques*/
+        width: 90%;
+        
+    }
+    .navbar-nav .nav-link {
+        padding-right: 30px;
+    }
+    .card{
+        margin-left: -1rem;
+        margin-bottom: 2rem;/*Regula os lados das fotos*/
+    }
+    h1 {
+        padding-top: 0; 
+        font-size: 2.5rem;
+    }
+    #fotoLucas{
+        display: none; /*Isso fazz tirar as fotos*/
+    }
+}
