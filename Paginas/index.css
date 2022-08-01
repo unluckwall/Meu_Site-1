@@ -55,7 +55,7 @@ h3{
 
 /* Começando a edição da HOME*/
 #perfil{
-    margin-top: 100px;
+    padding: 2rem 0 1rem;
 }
 
 #destaques{
@@ -68,14 +68,13 @@ h3{
 }
 
 #pouquinhoDeMim{
-    margin-top: 70px;
-    text-align: justify;
-    padding-inline: 150px;
+    margin-top: 70px;       /*AQUI SOBRE O TITULO*/
+    
 }
 
 #rodaPe{
     display: flex;
-    margin-top: 100px;
+    margin-top: 0px;
     background-color: #191a1b;
     justify-content: center
 }
@@ -100,23 +99,26 @@ h3{
 
 /*Começando o PESSOAL*/
 
-@media (max-width: 600px){    
+@media (max-width: 576px){    
     .col-12 {    /*essa col-12 pega a foto dos destaques*/
-        width: 90%;
-        
+        width: 100%;        
     }
     .navbar-nav .nav-link {
         padding-right: 30px;
     }
     .card{
-        margin-left: -1rem;
+        margin-left: 1rem;
         margin-bottom: 2rem;/*Regula os lados das fotos*/
+        align-items: center;
     }
     h1 {
         padding-top: 0; 
-        font-size: 2.5rem;
+        align-items: center;   
+    }
+    p{
+        
     }
     #fotoLucas{
-        display: none; /*Isso fazz tirar as fotos*/
+        display: none; /*Isso faz tirar as fotos*/
     }
 }
