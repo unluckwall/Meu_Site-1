@@ -48,16 +48,21 @@ h3{
     justify-content: center;
 }
 
-#destaques{
+#destaques {
     margin-top: 30px;
     text-align: center;
 }
-
 
 #rodaPe{
     display: flex;
     background-color: #191a1b;
     justify-content: center;
+}
+
+#hobbie .row{
+    justify-content: normal;
+    align-items: baseline;
+
 }
 
 @media (max-width: 576px){    
@@ -78,5 +83,8 @@ h3{
     }
     #fotoLucas{
         display: none; 
+    }
+    #hobbie{
+        display: none;
     }
 }
