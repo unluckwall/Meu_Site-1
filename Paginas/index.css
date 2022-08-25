@@ -81,10 +81,8 @@ h3{
         padding-top: 0; 
         align-items: center;   
     }
-    #fotoLucas{
+    #ftspessoal{
         display: none; 
-    }
-    #hobbie{
-        display: none;
+        display:contents;
     }
 }
