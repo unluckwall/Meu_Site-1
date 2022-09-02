@@ -2,7 +2,6 @@
 -------------------------------------------------- */
 /* Colocando a cor da letra como global */
 
-
 /* COSTUMIZANDO A NAVBAR
   -------------------------------------------------- */ 
 .navbar-collapse {
@@ -33,13 +32,15 @@
 
   /* Colocando espaçamento entre os "destaques" e "um pouco sobre mim" */
   #pouquinhoDeMim{
-    margin-top: 90px;
-    
+    margin-top: 90px;    
   }
   #destaques{
     margin-top: 60px;
   }
   
+  #perfil{
+    text-align: center;
+  }
   /* MARKETING CONTENT
   -------------------------------------------------- */
   
@@ -62,14 +63,6 @@
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
   }
-  
-  /* Thin out the marketing headings */
-  /* rtl:begin:remove */
-  .featurette-heading {
-    letter-spacing: -.05rem;
-  }
-  
-  /* rtl:end:remove */
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
@@ -99,8 +92,15 @@
         display: none;
       }
       }
-  
-/* Terminando a edição da NavBar*/ 
+
+
+
+    @media (max-width: 780px) {
+        .carousel-item:active>bd-placeholder-img{
+          src="https://media.gettyimages.com/photos/neymar-of-psg-celebrates-after-his-free-kick-leads-to-the-goal-scored-picture-id868738656";          
+        }
+    }
+/* Terminando a edição da NavBar   */ 
 .row {
     display: flex;
     flex-wrap: wrap;
