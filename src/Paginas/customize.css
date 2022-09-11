@@ -60,7 +60,7 @@
   /* RESPONSIVE CSS  */
   @media screen and (min-width: 577px) and (max-width: 3000px){
     #perfil{
-      margin-top: 5%;
+      margin-top: 30px;
     }
   }
  
@@ -76,7 +76,7 @@
     }
 
     #perfil{
-      margin-top: 10%;
+      margin-top: 30px;
     }
     }
 
